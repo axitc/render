@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Trashed - Guide{% endblock %}
+
+{% block page_content %}
+<div class="container">
+	<div class="page-header">
+		<h1><b>User Guide</b></h1>
+	</div>
+	<ol>
+		<li>Click picture of garbage pile you want to be taken care of.</li>
+		<li>Open Trashed.</li>
+		<li>Enter image and its location in the form provided.</li>
+		<li>Your submission will be sent to authorities if CNN algorithm classifies input image as trash.</li>
+		<li>If CNN is unable to detect trash in image, then you can optionally click 'Report' to prompt authorities for error.</li>
+	</ol>
+</div>
+{% endblock %}
